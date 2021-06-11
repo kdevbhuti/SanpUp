@@ -1,0 +1,38 @@
+.signup {
+  background: url(https://image.freepik.com/free-vector/blue-copy-space-digital-background_23-2148821698.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+.signup h1 {
+  padding: 2rem;
+  margin-top: 0rem;
+  margin-left: 2rem;
+  color: white;
+}
+.signup .form {
+  margin-left: 2rem;
+  padding: 1rem;
+  background-color: #636381;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 1rem;
+  gap: 1rem;
+  width: 17rem;
+}
+.signup .form input {
+  padding: 0.5rem;
+  width: 15rem;
+}
+.signup .form button {
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 5px;
+  background-color: chocolate;
+  color: cornsilk;
+}
+
+/*# sourceMappingURL=signup.css.map */

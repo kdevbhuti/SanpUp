@@ -1,0 +1,44 @@
+.home .heading {
+  background-color: #14a1b9;
+  padding: 2rem 5rem;
+  margin-bottom: 1rem;
+}
+.home .allProduct {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+.home .productDetails {
+  border: 5px solid blue;
+  display: flex;
+}
+.home .productDetails .productimg {
+  width: 15rem;
+  height: 20rem;
+}
+.home .productDetails .productimg img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.home .productDetails .productExtraDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.home .productDetails .productExtraDetails .productname {
+  font-size: large;
+  font-weight: bold;
+  color: blue;
+}
+.home .productDetails .productExtraDetails .price {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.home .productDetails .productExtraDetails button {
+  padding: 0.5rem 7rem;
+  background-color: #889fa0;
+}
+
+/*# sourceMappingURL=home.css.map */
